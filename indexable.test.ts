@@ -1,5 +1,5 @@
 import { assert, assertEquals, assertThrows } from "@std/assert";
-import { Spy, spy } from "@std/testing/mock";
+import { type Spy, spy } from "@std/testing/mock";
 import {
   elementKeys,
   getElement,
