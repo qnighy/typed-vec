@@ -1,6 +1,12 @@
 {
-  "tasks": {
-    "dev": "deno run --watch main.ts"
+  "name": "@qnighy/typed-vec",
+  "version": "0.1.0",
+  "license": "MIT OR Apache-2.0",
+  "exports": {
+    "./full": "./full.ts",
+    "./fast": "./fast.ts",
+    "./typedarray": "./typedarray.ts",
+    "./indexable": "./indexable.ts"
   },
   "imports": {
     "@qnighy/absop": "jsr:@qnighy/absop@^0.1.2",
