@@ -1,5 +1,8 @@
 ## TypedVec: unbounded-resizable TypedArray
 
+[![JSR](https://jsr.io/badges/@qnighy/typed-vec)](https://jsr.io/@qnighy/typed-vec)
+[![JSR Score](https://jsr.io/badges/@qnighy/typed-vec/score)](https://jsr.io/@qnighy/typed-vec)
+
 TypedVec is an unbounded-resizable version of JS TypedArray (such as
 Uint8Array).
 
@@ -36,7 +39,18 @@ properties.
 
 ## Installation
 
-To be updated.
+For Deno:
+
+```console
+$ deno add @qnighy/typed-vec
+```
+
+See [Using packages - Docs - JSR](https://jsr.io/docs/using-packages) for usage
+in Node.js.
+
+## API Reference
+
+See the [JSR Page](https://jsr.io/@qnighy/typed-vec).
 
 ## Usage
 
